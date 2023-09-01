@@ -1,0 +1,16 @@
+{
+    "notes": "ignore any license for any version of alpine for the base layer within all 'myApp' builds",
+    "ignore_filters": {
+        "licenses":[
+            "any"
+        ],
+        "components": [
+            {
+                "name":"pypi://pylint"
+            }
+        ],
+		"watches": [{
+			"name": "ignore-lice-test"
+		}]
+    }
+}

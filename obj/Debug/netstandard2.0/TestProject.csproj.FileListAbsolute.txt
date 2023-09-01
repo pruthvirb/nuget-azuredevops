@@ -1,0 +1,9 @@
+C:\git\TestProject\bin\Debug\netstandard2.0\TestProject.deps.json
+C:\git\TestProject\bin\Debug\netstandard2.0\TestProject.dll
+C:\git\TestProject\bin\Debug\netstandard2.0\TestProject.pdb
+C:\git\TestProject\obj\Debug\netstandard2.0\TestProject.csprojAssemblyReference.cache
+C:\git\TestProject\obj\Debug\netstandard2.0\TestProject.AssemblyInfoInputs.cache
+C:\git\TestProject\obj\Debug\netstandard2.0\TestProject.AssemblyInfo.cs
+C:\git\TestProject\obj\Debug\netstandard2.0\TestProject.csproj.CoreCompileInputs.cache
+C:\git\TestProject\obj\Debug\netstandard2.0\TestProject.dll
+C:\git\TestProject\obj\Debug\netstandard2.0\TestProject.pdb
