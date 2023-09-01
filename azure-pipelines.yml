@@ -11,16 +11,16 @@ pool:
 
 steps:
 
-  - task: JFrogNuGet@1
-    inputs:
-      command: 'restore'
-      artifactoryConnection: 'v2-hts'
-      targetResolveRepo: 'pruthvi-nuget'
-      solutionPath: '**/*.sln'
-      collectBuildInfo: true
-      buildName: '$(Build.DefinitionName)'
-      buildNumber: '$(Build.BuildNumber)'
-      includeEnvVars: true
+- task: JFrogNuGet@1
+  inputs:
+    command: 'restore'
+    artifactoryConnection: 'v2-hts'
+    targetResolveRepo: 'pruthvi-nuget'
+    solutionPath: '**/*.sln'
+    collectBuildInfo: true
+    buildName: '$(Build.DefinitionName)'
+    buildNumber: '$(Build.BuildNumber)'
+    includeEnvVars: true
 - task: JFrogPublishBuildInfo@1
   inputs:
     artifactoryConnection: 'v2-hts'
